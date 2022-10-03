@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: this should break now too
+        run: echo Hello World!
   doMoreStuff:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
